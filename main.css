@@ -26,7 +26,6 @@ header {
 .logo {
   grid-column: 1/2;
   justify-self: start;
-  background-color: #F25C05;
 }
 
 .button{
