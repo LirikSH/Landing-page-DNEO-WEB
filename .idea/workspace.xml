@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a04bc7b2-7a33-474d-be3b-b3cdffa2b56a" name="Default Changelist" comment="add fr to grids">
+    <list default="true" id="a04bc7b2-7a33-474d-be3b-b3cdffa2b56a" name="Default Changelist" comment="changed logo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illustration/404 Error with a cute animal-bro.png" beforeDir="false" afterPath="$PROJECT_DIR$/illustration/404.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illustration/404 Error with a cute animal-bro.svg" beforeDir="false" afterPath="$PROJECT_DIR$/illustration/404.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
@@ -62,7 +64,9 @@
       <option name="presentableId" value="Default" />
       <updated>1604509080208</updated>
       <workItem from="1604509082474" duration="2164000" />
-      <workItem from="1604600828723" duration="3916000" />
+      <workItem from="1604600828723" duration="4370000" />
+      <workItem from="1604679591752" duration="409000" />
+      <workItem from="1604684742793" duration="1940000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1604509481379</created>
@@ -113,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604602283613</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add grids 4&#10;changed colors&#10;tried to add logo">
+      <created>1604606694232</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604606694232</updated>
+    </task>
+    <task id="LOCAL-00009" summary="changed logo">
+      <created>1604606862284</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604606862284</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +147,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add" />
@@ -138,7 +157,9 @@
     <MESSAGE value="add grids 4" />
     <MESSAGE value="change color logo" />
     <MESSAGE value="add fr to grids" />
-    <option name="LAST_COMMIT_MESSAGE" value="add fr to grids" />
+    <MESSAGE value="add grids 4&#10;changed colors&#10;tried to add logo" />
+    <MESSAGE value="changed logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed logo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604509868531">
@@ -149,13 +170,13 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604509277446" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604602289808">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604606865528">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604602289808" />
-    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604602549211">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604606865528" />
+    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604684754234">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1604602549211" />
+    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1604684754234" />
   </component>
 </project>
