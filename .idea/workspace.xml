@@ -19,11 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a04bc7b2-7a33-474d-be3b-b3cdffa2b56a" name="Default Changelist" comment="changed all">
+    <list default="true" id="a04bc7b2-7a33-474d-be3b-b3cdffa2b56a" name="Default Changelist" comment="1) add main text&#10;2) add running line with animation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/D-neo_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/D-neo_logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/D-neo_logo_black.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,10 @@
       <workItem from="1604679591752" duration="409000" />
       <workItem from="1604684742793" duration="2102000" />
       <workItem from="1604840219729" duration="163000" />
-      <workItem from="1604863330656" duration="2970000" />
+      <workItem from="1604863330656" duration="3219000" />
+      <workItem from="1604944888774" duration="327000" />
+      <workItem from="1605719566484" duration="495000" />
+      <workItem from="1605720245786" duration="3174000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1604509481379</created>
@@ -139,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604686878136</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="1) add main text&#10;2) add running line with animation">
+      <created>1604866927547</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604866927547</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,21 +180,22 @@
     <MESSAGE value="add grids 4&#10;changed colors&#10;tried to add logo" />
     <MESSAGE value="changed logo" />
     <MESSAGE value="changed all" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed all" />
+    <MESSAGE value="1) add main text&#10;2) add running line with animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="1) add main text&#10;2) add running line with animation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604509868531">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605722753159">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1604509868531" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1605722753159" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1604509277446">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604509277446" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604686887201">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604866934970">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604686887201" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604866934970" />
     <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604686858642">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
