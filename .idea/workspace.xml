@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a04bc7b2-7a33-474d-be3b-b3cdffa2b56a" name="Default Changelist" comment="1) change neon Logo DNEO and description under">
+    <list default="true" id="a04bc7b2-7a33-474d-be3b-b3cdffa2b56a" name="Default Changelist" comment="add one dashed line">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
@@ -71,7 +71,7 @@
       <workItem from="1605719566484" duration="495000" />
       <workItem from="1605720245786" duration="3239000" />
       <workItem from="1605733291960" duration="8652000" />
-      <workItem from="1605786485621" duration="3088000" />
+      <workItem from="1605786485621" duration="5710000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1604509481379</created>
@@ -178,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605786962862</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add one dashed line">
+      <created>1605790354237</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605790354237</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,14 +219,15 @@
     <MESSAGE value="1) add header to Benefits" />
     <MESSAGE value="1) add dashed line" />
     <MESSAGE value="1) change neon Logo DNEO and description under" />
-    <option name="LAST_COMMIT_MESSAGE" value="1) change neon Logo DNEO and description under" />
+    <MESSAGE value="add one dashed line" />
+    <option name="LAST_COMMIT_MESSAGE" value="add one dashed line" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605790035384">
+    <state x="184" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605790135824">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1605776034981" />
-    <state x="184" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.819@0.23.1440.819" timestamp="1605790035384" />
+    <state x="184" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.819@0.23.1440.819" timestamp="1605790135824" />
     <state x="525" y="142" key="RollbackChangesDialog" timestamp="1605787182734">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
@@ -228,11 +236,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604509277446" />
-    <state x="320" y="196" key="Vcs.Push.Dialog.v2" timestamp="1605786966929">
+    <state x="320" y="196" key="Vcs.Push.Dialog.v2" timestamp="1605790359355">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605776471988" />
-    <state x="320" y="196" key="Vcs.Push.Dialog.v2/0.23.1440.819@0.23.1440.819" timestamp="1605786966929" />
+    <state x="320" y="196" key="Vcs.Push.Dialog.v2/0.23.1440.819@0.23.1440.819" timestamp="1605790359355" />
     <state x="518" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605783753288">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
