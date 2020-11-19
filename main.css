@@ -70,6 +70,7 @@ header {
   grid-template-rows: 4fr 8fr 4fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr;
   justify-items: center;
   align-items: center;
+  background-image: url("img/Benefits/back.png");
 }
 
 .neon {
@@ -100,18 +101,13 @@ header {
   grid-column: 1/-1;
   grid-row: 3/4;
   align-self: start;
-  left: calc(50% - 737px/2 + 0.5px);
-  bottom: 282px;
 
   font-family: HelveticaNeueCyr;
   font-style: normal;
-  font-weight: 300;
   font-size: 36px;
   line-height: 36px;
   text-align: center;
   color: #5D5D5D;
-
-  align-self: center;
 }
 
 .benefits{

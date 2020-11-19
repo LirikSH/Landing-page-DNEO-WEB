@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a04bc7b2-7a33-474d-be3b-b3cdffa2b56a" name="Default Changelist" comment="add one dashed line">
+    <list default="true" id="a04bc7b2-7a33-474d-be3b-b3cdffa2b56a" name="Default Changelist" comment="add text description to benefits&#10;changed the image location in grids">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
@@ -71,7 +71,7 @@
       <workItem from="1605719566484" duration="495000" />
       <workItem from="1605720245786" duration="3239000" />
       <workItem from="1605733291960" duration="8652000" />
-      <workItem from="1605786485621" duration="5710000" />
+      <workItem from="1605786485621" duration="7148000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1604509481379</created>
@@ -185,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605790354237</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add text description to benefits&#10;changed the image location in grids">
+      <created>1605792853152</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1605792853152</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +227,8 @@
     <MESSAGE value="1) add dashed line" />
     <MESSAGE value="1) change neon Logo DNEO and description under" />
     <MESSAGE value="add one dashed line" />
-    <option name="LAST_COMMIT_MESSAGE" value="add one dashed line" />
+    <MESSAGE value="add text description to benefits&#10;changed the image location in grids" />
+    <option name="LAST_COMMIT_MESSAGE" value="add text description to benefits&#10;changed the image location in grids" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605790135824">
@@ -236,11 +244,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604509277446" />
-    <state x="320" y="196" key="Vcs.Push.Dialog.v2" timestamp="1605790359355">
+    <state x="320" y="196" key="Vcs.Push.Dialog.v2" timestamp="1605792857573">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605776471988" />
-    <state x="320" y="196" key="Vcs.Push.Dialog.v2/0.23.1440.819@0.23.1440.819" timestamp="1605790359355" />
+    <state x="320" y="196" key="Vcs.Push.Dialog.v2/0.23.1440.819@0.23.1440.819" timestamp="1605792857573" />
     <state x="518" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605783753288">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
