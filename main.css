@@ -66,8 +66,8 @@ header {
   grid-column: 1/-1;
   grid-row: 2/3;
   display: grid;
-  grid-template-columns: 0.25fr 1fr 1fr 1fr 0.25fr;
-  grid-template-rows: 1fr 8fr 4fr 3fr 6fr 6fr 6fr 6fr 6fr;
+  grid-template-columns: 0.15fr 1fr 1fr 1fr 0.15fr;
+  grid-template-rows: 4fr 8fr 4fr 4fr 6fr 6fr 6fr 6fr 6fr 6fr;
   justify-items: center;
   align-items: center;
 }
@@ -96,11 +96,10 @@ header {
   text-shadow: 0px 0px 25px rgba(255, 148, 53, 0.5), 8px 12px 5px rgba(0, 0, 0, 0.25);
 }
 
-.neon-1 {
+.description {
   grid-column: 1/-1;
   grid-row: 3/4;
   align-self: start;
-
   left: calc(50% - 737px/2 + 0.5px);
   bottom: 282px;
 
@@ -145,38 +144,37 @@ header {
 
 .benefits-1 {
   grid-column: 2/4;
-  grid-row: 5/6;
+  grid-row: 5/7;
   justify-self: left;
 }
 
-.vector-1-2 {
-  grid-column: 3/-2;
-  grid-row: 5/7;
+.vector-2-2 {
+  grid-column: 3/4;
+  grid-row: 6/10;
   justify-self: start;
-  align-self: start;
 }
 
 .benefits-2 {
   grid-column: -2/-4;
-  grid-row: 6/7;
+  grid-row: 6/8;
   justify-self: right;
 }
 
 .benefits-3 {
   grid-column: 2/4;
-  grid-row: 7/8;
+  grid-row: 7/9;
   justify-self: left;
 }
 
 .benefits-4 {
   grid-column: -2/-4;
-  grid-row: 8/9;
+  grid-row: 8/10;
   justify-self: right;
 }
 
 .benefits-5 {
   grid-column: 2/4;
-  grid-row: 9/10;
+  grid-row: 9/11;
   justify-self: left;
 }
 
