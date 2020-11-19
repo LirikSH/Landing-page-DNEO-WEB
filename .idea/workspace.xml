@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a04bc7b2-7a33-474d-be3b-b3cdffa2b56a" name="Default Changelist" comment="add text description to benefits&#10;changed the image location in grids">
+    <list default="true" id="a04bc7b2-7a33-474d-be3b-b3cdffa2b56a" name="Default Changelist" comment="delete row-gap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +70,7 @@
       <workItem from="1605719566484" duration="495000" />
       <workItem from="1605720245786" duration="3239000" />
       <workItem from="1605733291960" duration="8652000" />
-      <workItem from="1605786485621" duration="7148000" />
+      <workItem from="1605786485621" duration="7788000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1604509481379</created>
@@ -192,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605792853152</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add background image">
+      <created>1605794372129</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1605794372129</updated>
+    </task>
+    <task id="LOCAL-00019" summary="delete row-gap">
+      <created>1605794446496</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1605794446496</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +241,9 @@
     <MESSAGE value="1) change neon Logo DNEO and description under" />
     <MESSAGE value="add one dashed line" />
     <MESSAGE value="add text description to benefits&#10;changed the image location in grids" />
-    <option name="LAST_COMMIT_MESSAGE" value="add text description to benefits&#10;changed the image location in grids" />
+    <MESSAGE value="add background image" />
+    <MESSAGE value="delete row-gap" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete row-gap" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605790135824">
@@ -244,15 +259,15 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604509277446" />
-    <state x="320" y="196" key="Vcs.Push.Dialog.v2" timestamp="1605792857573">
+    <state x="320" y="196" key="Vcs.Push.Dialog.v2" timestamp="1605794449790">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605776471988" />
-    <state x="320" y="196" key="Vcs.Push.Dialog.v2/0.23.1440.819@0.23.1440.819" timestamp="1605792857573" />
-    <state x="518" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605783753288">
+    <state x="320" y="196" key="Vcs.Push.Dialog.v2/0.23.1440.819@0.23.1440.819" timestamp="1605794449790" />
+    <state x="518" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605794836747">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1605733968759" />
-    <state x="518" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.819@0.23.1440.819" timestamp="1605783753288" />
+    <state x="518" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.819@0.23.1440.819" timestamp="1605794836747" />
   </component>
 </project>
