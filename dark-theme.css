@@ -8,7 +8,7 @@ body {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
-  background-color: #f2f4f6;
+  background-color: #ffffff;
 }
 /* Шапка сайта */
 header {
@@ -69,7 +69,6 @@ header {
   grid-template-rows: 4fr 8fr 4fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr;
   justify-items: center;
   align-items: center;
-  background-image: url("img/Benefits/back.png");
 }
 
 .neon {
