@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a04bc7b2-7a33-474d-be3b-b3cdffa2b56a" name="Default Changelist" comment="1) add header to Benefits">
+    <list default="true" id="a04bc7b2-7a33-474d-be3b-b3cdffa2b56a" name="Default Changelist" comment="8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
@@ -70,7 +70,8 @@
       <workItem from="1604944888774" duration="327000" />
       <workItem from="1605719566484" duration="495000" />
       <workItem from="1605720245786" duration="3239000" />
-      <workItem from="1605733291960" duration="5721000" />
+      <workItem from="1605733291960" duration="8652000" />
+      <workItem from="1605786485621" duration="289000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1604509481379</created>
@@ -163,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605740530185</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1) add dashed line">
+      <created>1605774491082</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605774491082</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,24 +203,26 @@
     <MESSAGE value="1) add main text&#10;2) add running line with animation" />
     <MESSAGE value="1) add pictures to Benefits" />
     <MESSAGE value="1) add header to Benefits" />
-    <option name="LAST_COMMIT_MESSAGE" value="1) add header to Benefits" />
+    <MESSAGE value="1) add dashed line" />
+    <option name="LAST_COMMIT_MESSAGE" value="1) add dashed line" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605737560920">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605776034981">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1605737560920" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1605776034981" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1604509277446">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604509277446" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605740535617">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605776471988">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605740535617" />
-    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605733968759">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605776471988" />
+    <state x="518" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605783753288">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1605733968759" />
+    <state x="518" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.819@0.23.1440.819" timestamp="1605783753288" />
   </component>
 </project>
