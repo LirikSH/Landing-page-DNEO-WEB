@@ -24,6 +24,7 @@ header {
   opacity: 0.8;
   backdrop-filter: blur(15px);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: #292B2C;
 }
 
 .heading {
@@ -35,7 +36,7 @@ header {
 .logo  {
   grid-column: 1/2;
   grid-row: 2/3;
-  margin-left: 20%;
+  padding-left: 20%;
 }
 
 .phone-number{
@@ -50,8 +51,7 @@ header {
 .menu{
   grid-column: 12/13;
   grid-row: 2/3;
-  color: #F5F5F5;
-  margin-right: 20%;
+  padding-right: 20%;
 }
 
 /* Контент сайта */
@@ -61,27 +61,31 @@ header {
   grid-row: 2/3;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
   justify-items: center;
   align-items: center;
 }
+
 /* Блок с неоновой вывеской */
 .neonBlock {
-  display: grid;
   grid-column: 1/-1;
   grid-row: 1/2;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  justify-items: stretch;
+  justify-items: center;
+  padding-left: 4%;
+  padding-right: 4%;
+  background-color: #292B2C;
 /*
   background: url("img/Benefits/BPphoto.png");
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
  */
 }
+
 .neonTitle {
-  grid-column: 2/-2;
-  grid-row: 2/3;
+  grid-column: 5/9;
+  grid-row: 4/9;
   font-family: Screpka;
   font-style: normal;
   font-weight: 300;
@@ -96,9 +100,10 @@ header {
   color: #FF9435;
   text-shadow: 8px 12px 5px rgba(174, 171, 171, 0.25), 0px 0px 30px rgba(254, 147, 52, 0.4);
 }
+
 .topUsText{
-  grid-column: 5/9;
-  grid-row: 3/4;
+  grid-column: 3/11;
+  grid-row: 9/11;
   font-family: HelveticaNeueCyr;
   font-style: normal;
   font-weight: 300;

@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a04bc7b2-7a33-474d-be3b-b3cdffa2b56a" name="Default Changelist" comment="1) rename all BenefitsBlock elements">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_11_2020,_16_21_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_11_2020,_16_31_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_11_2020__16_21__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_11_2020__16_31__Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="a04bc7b2-7a33-474d-be3b-b3cdffa2b56a" name="Default Changelist" comment="1) Changing grids">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Benefits/Menu.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
@@ -81,7 +78,7 @@
       <workItem from="1605867212623" duration="3840000" />
       <workItem from="1606044713534" duration="2115000" />
       <workItem from="1606837961596" duration="31000" />
-      <workItem from="1607536904473" duration="3817000" />
+      <workItem from="1607536904473" duration="5366000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1604509481379</created>
@@ -258,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606046630184</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="1) Changing grids">
+      <created>1607593681639</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1607593681639</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +304,8 @@
     <MESSAGE value="add dark theme" />
     <MESSAGE value="1) add color to dark-theme.css&#10;2) add everywhere button of changing color" />
     <MESSAGE value="1) rename all BenefitsBlock elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="1) rename all BenefitsBlock elements" />
+    <MESSAGE value="1) Changing grids" />
+    <option name="LAST_COMMIT_MESSAGE" value="1) Changing grids" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605869057140">
@@ -320,10 +325,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604509277446" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606046682743">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607593688769">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606046682743" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607593688769" />
     <state x="320" y="196" key="Vcs.Push.Dialog.v2/0.23.1440.819@0.23.1440.819" timestamp="1605869541435" />
     <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606044812270">
       <screen x="0" y="0" width="1440" height="900" />
