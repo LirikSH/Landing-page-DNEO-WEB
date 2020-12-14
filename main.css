@@ -120,7 +120,8 @@ header {
   grid-row: 2/3;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+  1fr 1fr 1fr 1fr 1fr 1fr;
   justify-items: center;
   backgroundcolor: #FFFFFF;
 }
@@ -151,7 +152,7 @@ header {
   100%{transform: translate(0, 0)}
 }  */
 
-.benefitBlockTitleBlack {
+/*.benefitBlockTitleBlack {
   grid-column: 11/20;
   grid-row: 3/4;
 
@@ -164,96 +165,164 @@ header {
   -webkit-text-stroke-color: #292B2C;
   color: #FFFFFF;
 }
+ */
 
-.fullBenefitImage {
-  grid-column: 2/3;
-  grid-row: 2/3;
+.fullBenefitTitle {
+  grid-column: 3/7;
+  grid-row: 3/4;
+  font-family: Screpka;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 52px;
+  color:#FF9435;
+  justify-self: left;
+  align-self: center;
 }
 
-.lineTDBenefit {
-  grid-column: 3/4;
-  grid-row: 2/7;
+.fullBenefitImage {
+  grid-column: 3/7;
+  grid-row: 4/9;
   align-self: center;
 }
 
 .fullBenefitText{
-  grid-column: 3/7;
-  grid-row: 3/4;
-
-  font-family: Helvetica;
+  grid-column: 3/9;
+  grid-row: 9/10;
+  font-family: HelveticaNeueCyr;
   font-style: normal;
   font-weight: 200;
-  font-size: 16px;
+  font-size: 20px;
   color: #5D5D5D;
-  text-align: center;
+  justify-self: left;
+  align-self: center;
+}
+
+.speedBenefitTitle {
+  grid-column: 13/19;
+  grid-row: 7/8;
+  font-family: Screpka;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 52px;
+  color:#FF9435;
+  justify-self: right;
+  align-self: center;
 }
 
 .speedBenefitImage {
-  grid-column: -2/-3;
-  grid-row: 3/5;
+  grid-column: 14/19;
+  grid-row: 8/12;
+  align-self: center;
 }
 
 .speedBenefitText{
-  grid-column: -2/-3;
-  grid-row: 2/4;
-
-
-  font-family: Helvetica;
+  grid-column: 13/19;
+  grid-row: 12/13;
+  font-family: HelveticaNeueCyr;
   font-style: normal;
   font-weight: 200;
-  font-size: 16px;
+  font-size: 20px;
   color: #5D5D5D;
-  text-align: center;
+  text-align: right;
+  justify-self: right;
+  align-self: center;
+}
+
+.experienceBenefitTitle {
+  grid-column: 3/7;
+  grid-row: 11/12;
+  font-family: Screpka;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 52px;
+  color:#FF9435;
+  justify-self: left;
+  align-self: center;
 }
 
 .experienceBenefitImage {
-  grid-column: 2/3;
-  grid-row: 4/6;
+  grid-column: 3/7;
+  grid-row: 12/17;
+  align-self: center;
 }
 
 .experienceBenefitText{
-  grid-column: 2/3;
-  grid-row: 3/5;
-
-
-  font-family: Helvetica;
+  grid-column: 3/9;
+  grid-row: 17/18;
+  font-family: HelveticaNeueCyr;
   font-style: normal;
   font-weight: 200;
-  font-size: 16px;
+  font-size: 20px;
   color: #5D5D5D;
-  text-align: center;
+  align-self: center;
+  justify-self: left;
+}
+
+.uniqueBenefitTitle {
+  grid-column: 16/19;
+  grid-row: 14/15;
+  font-family: Screpka;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 52px;
+  color:#FF9435;
+  justify-self: right;
+  align-self: center;
 }
 
 .uniqueBenefitImage {
-  grid-column: -2/-3;
-  grid-row: 5/7;
+  grid-column: 13/19;
+  grid-row: 15/19;
+  align-self: center;
 }
 
 .uniqueBenefitText{
-  grid-column: -2/-3;
-  grid-row: 4/6;
-  font-family: Helvetica;
+  grid-column: 13/19;
+  grid-row: 19/20;
+  font-family: HelveticaNeueCyr;
   font-style: normal;
   font-weight: 200;
-  font-size: 16px;
+  font-size: 20px;
   color: #5D5D5D;
-  text-align: center;
+  text-align: right;
+  justify-self: right;
+  align-self: center;
+}
+
+.accuracyBenefitTitle {
+  grid-column: 3/7;
+  grid-row: 19/20;
+  font-family: Screpka;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 52px;
+  color:#FF9435;
+  justify-self: left;
+  align-self: center;
 }
 
 .accuracyBenefitImage {
-  grid-column: 2/3;
-  grid-row: 6/8;
+  grid-column: 3/8;
+  grid-row: 20/25;
+  align-self: center;
 }
 
 .accuracyBenefitText{
-  grid-column: 2/3;
-  grid-row: 5/7;
-  font-family: Helvetica;
+  grid-column: 3/9;
+  grid-row: 25/26;
+  font-family: HelveticaNeueCyr;
   font-style: normal;
   font-weight: 200;
-  font-size: 16px;
+  font-size: 20px;
   color: #5D5D5D;
-  text-align: center;
+  justify-self: left;
+  align-self: center;
+}
+
+.lineTDBenefit {
+  grid-column: 9/13;
+  grid-row: 6/22;
+  align-self: center;
 }
 
 /* Блок с проектами */
