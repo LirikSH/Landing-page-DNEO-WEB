@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a04bc7b2-7a33-474d-be3b-b3cdffa2b56a" name="Default Changelist" comment="1) Changing grids in neon block">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-    </list>
+    <list default="true" id="a04bc7b2-7a33-474d-be3b-b3cdffa2b56a" name="Default Changelist" comment="1) Changing grids in neon block" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +75,7 @@
       <workItem from="1606837961596" duration="31000" />
       <workItem from="1607536904473" duration="5522000" />
       <workItem from="1607623440916" duration="2712000" />
-      <workItem from="1607777169632" duration="3185000" />
+      <workItem from="1607777169632" duration="3492000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1604509481379</created>
@@ -277,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607626147707</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Finished with all grids">
+      <created>1607780668855</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1607780668855</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +299,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add grid" />
     <MESSAGE value="add grids 2" />
     <MESSAGE value="add grids 3" />
     <MESSAGE value="add grids 4" />
@@ -321,7 +323,8 @@
     <MESSAGE value="1) Changing grids" />
     <MESSAGE value="1) Changing grids in neon block" />
     <MESSAGE value="Working with grids in BenefitsBlock" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working with grids in BenefitsBlock" />
+    <MESSAGE value="Finished with all grids" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished with all grids" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607779123437">
@@ -341,10 +344,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604509277446" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607626152336">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607780672731">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607626152336" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607780672731" />
     <state x="320" y="196" key="Vcs.Push.Dialog.v2/0.23.1440.819@0.23.1440.819" timestamp="1605869541435" />
     <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607777177012">
       <screen x="0" y="0" width="1440" height="900" />
