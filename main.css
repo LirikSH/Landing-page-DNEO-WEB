@@ -349,6 +349,13 @@ header {
   color: #292B2C;
 }
 
+.arrowLeft{
+  grid-column: 6/8;
+  grid-row: 3/4;
+  justify-self: center;
+  align-self: center;
+}
+
 .renderTitle{
   grid-column: 8/9;
   grid-row: 3/4;
@@ -359,6 +366,7 @@ header {
   line-height: 25px;
   text-align: center;
   color: #FFFFFF;
+  align-self: center;
 }
 
 .resultTitle{
@@ -371,6 +379,164 @@ header {
   line-height: 25px;
   text-align: center;
   color: #FFFFFF;
+  align-self: center;
+}
+
+.arrowRight{
+  grid-column: 11/13;
+  grid-row: 3/4;
+  justify-self: center;
+  align-self: center;
+}
+
+.centerLineRenderResult{
+  grid-column: 9/10;
+  grid-row: 4/14;
+  justify-self: center;
+  align-self: start;
+}
+
+.circleCenterRenderResult{
+  grid-column: 9/10;
+  grid-row: 4/14;
+  justify-self: center;
+  align-self: center;
+}
+
+.britishPetroleumText{
+  grid-column: -3/-5;
+  grid-row: 4/5;
+  justify-self: end;
+  align-self: center;
+
+  font-family: HelveticaNeueCyr;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  text-shadow: 2px 6px 16px rgba(255, 255, 255, 0.25);
+}
+
+.elgaugolText{
+  grid-column: -3/-5;
+  grid-row: 5/6;
+  justify-self: end;
+  align-self: center;
+
+  font-family: HelveticaNeueCyr;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.lorealText{
+  grid-column: -3/-5;
+  grid-row: 6/7;
+  justify-self: end;
+  align-self: center;
+
+  font-family: HelveticaNeueCyr;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.gloraxText{
+  grid-column: -3/-5;
+  grid-row: 7/8;
+  justify-self: end;
+  align-self: center;
+
+  font-family: HelveticaNeueCyr;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.eatMeatText{
+  grid-column: -3/-5;
+  grid-row: 8/9;
+  justify-self: end;
+  align-self: center;
+
+  font-family: HelveticaNeueCyr;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+
+.factNumberOfPhoto{
+  grid-column: 4/6;
+  grid-row: -10/-11;
+  justify-self: center;
+  align-self: center;
+
+  font-family: HelveticaNeueCyr;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF
+}
+
+.linePhotoOfWorks{
+  grid-column: 4/6;
+  grid-row: -8/-10;
+  justify-self: center;
+  align-self: center;
+}
+
+.lastNumberOfPhoto{
+  grid-column: 4/6;
+  grid-row: -7/-8;
+  justify-self: center;
+  align-self: center;
+
+  font-family: HelveticaNeueCyr;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF
+}
+
+.arrowOurContacts{
+  grid-column: -2/-3;
+  grid-row: -3/-6;
+  justify-self: start;
+  align-self: center;
 }
 
 /* Блок с клиентами */

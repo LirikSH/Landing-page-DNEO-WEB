@@ -81,7 +81,7 @@
       <workItem from="1607623440916" duration="2712000" />
       <workItem from="1607777169632" duration="3492000" />
       <workItem from="1607941001668" duration="5703000" />
-      <workItem from="1608042165799" duration="718000" />
+      <workItem from="1608042165799" duration="3354000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1604509481379</created>
@@ -300,7 +300,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607949590280</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Creating Project Block">
+      <created>1608043218451</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1608043218451</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Finished BenefitBlock">
+      <created>1608043388618</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1608043388618</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +333,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add grids 4" />
     <MESSAGE value="change color logo" />
     <MESSAGE value="add fr to grids" />
     <MESSAGE value="add grids 4&#10;changed colors&#10;tried to add logo" />
@@ -343,14 +356,15 @@
     <MESSAGE value="Working with grids in BenefitsBlock" />
     <MESSAGE value="Finished with all grids" />
     <MESSAGE value="Added blocks Clients and Connection" />
+    <MESSAGE value="Creating Project Block" />
     <MESSAGE value="Finished BenefitBlock" />
     <option name="LAST_COMMIT_MESSAGE" value="Finished BenefitBlock" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607779123437">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608045548803">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1607779123437" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1608045548803" />
     <state x="184" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.819@0.23.1440.819" timestamp="1605869057140" />
     <state x="144" y="94" key="MergeDialog" timestamp="1605879109141">
       <screen x="0" y="23" width="1440" height="819" />
@@ -364,15 +378,15 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604509277446" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607949596092">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608043395148">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607949596092" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608043395148" />
     <state x="320" y="196" key="Vcs.Push.Dialog.v2/0.23.1440.819@0.23.1440.819" timestamp="1605869541435" />
-    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608042188483">
+    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608044218620">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1608042188483" />
+    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1608044218620" />
     <state x="518" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.819@0.23.1440.819" timestamp="1605879093297" />
   </component>
 </project>
