@@ -494,6 +494,13 @@ header {
   color: #FFFFFF;
 }
 
+.dashedLineProjectBlock{
+  grid-column: -1/-6;
+  grid-row: 11/20;
+  justify-self: start;
+  align-self: start;
+}
+
 
 .factNumberOfPhoto{
   grid-column: 4/6;
@@ -507,7 +514,7 @@ header {
   font-size: 26px;
   line-height: 30px;
   text-align: center;
-  color: #FFFFFF
+  color: #FFFFFF;
 }
 
 .linePhotoOfWorks{
@@ -529,7 +536,7 @@ header {
   font-size: 26px;
   line-height: 30px;
   text-align: center;
-  color: #FFFFFF
+  color: #FFFFFF;
 }
 
 .circleLeftRenderResult{
@@ -543,6 +550,20 @@ header {
   grid-column: -4/-5;
   grid-row: -8/-9;
   justify-self: center;
+  align-self: center;
+}
+
+.ourContactText{
+  grid-column: -2/-3;
+  grid-row: -6/-10;
+
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #FFFFFF;
+  writing-mode: vertical-rl;
+  justify-self: start;
   align-self: center;
 }
 
@@ -575,6 +596,104 @@ header {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #FF9435;
   color: #FFFFFF;
+}
+
+.philipsLogo{
+  grid-column: 3/6;
+  grid-row: 4/5;
+  justify-self: center;
+  align-self: center;
+}
+
+.duracellLogo{
+  grid-column: 7/11;
+  grid-row: 4/5;
+  justify-self: center;
+  align-self: center;
+}
+
+.lorealLogo{
+  grid-column: 11/15;
+  grid-row: 4/5;
+  justify-self: center;
+  align-self: center;
+}
+
+.greenwayLogo{
+  grid-column: 15/19;
+  grid-row: 4/5;
+  justify-self: center;
+  align-self: center;
+}
+
+.bpLogo{
+  grid-column: 3/6;
+  grid-row: 6/10;
+  justify-self: center;
+  align-self: center;
+}
+
+.a_propertyLogo{
+  grid-column: 6/10;
+  grid-row: 6/10;
+  justify-self: center;
+  align-self: center;
+}
+
+.empireLogo{
+  grid-column: 10/12;
+  grid-row: 6/10;
+  justify-self: center;
+  align-self: center;
+}
+
+.rocheLogo{
+  grid-column: 13/15;
+  grid-row: 6/10;
+  justify-self: center;
+  align-self: center;
+}
+
+.elgaugolLogo{
+  grid-column: 16/18;
+  grid-row: 6/10;
+  justify-self: center;
+  align-self: center;
+}
+
+.s7AirlinesLogo{
+  grid-column: 3/6;
+  grid-row: -2/-5;
+  justify-self: center;
+  align-self: center;
+}
+
+.yotaLogo{
+  grid-column: 7/9;
+  grid-row: -2/-5;
+  justify-self: center;
+  align-self: center;
+}
+
+.gloraxLogo{
+  grid-column: 10/12;
+  grid-row: -2/-5;
+  justify-self: center;
+  align-self: center;
+}
+
+.hyveLogo{
+  grid-column: 13/15;
+  grid-row: -2/-5;
+  justify-self: center;
+  align-self: center;
+}
+
+.medLogo{
+  grid-column: 16/18;
+  grid-row: -2/-5;
+  justify-self: center;
+  align-self: center;
 }
 
 /* Блок с с обратной связью */
