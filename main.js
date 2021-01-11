@@ -6,6 +6,6 @@ let scrolling = 0,
   if(window.pageYOffset > scrolling){
     scrolling = window.pageYOffset;
     change.className = 'absolute';
-  }else{ change.className = 'fixed';}
+  }else{ change.className = 'fixed';
   }
 }
