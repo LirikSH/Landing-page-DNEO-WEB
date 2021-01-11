@@ -21,8 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a04bc7b2-7a33-474d-be3b-b3cdffa2b56a" name="Default Changelist" comment="Working on project Block">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,9 @@
       <workItem from="1607777169632" duration="3492000" />
       <workItem from="1607941001668" duration="5703000" />
       <workItem from="1608042165799" duration="3906000" />
-      <workItem from="1608110088706" duration="4518000" />
+      <workItem from="1608110088706" duration="4771000" />
+      <workItem from="1608117982027" duration="184000" />
+      <workItem from="1610377983467" duration="1350000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1604509481379</created>
@@ -329,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608046626090</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Finished Projects and Clients Blocks">
+      <created>1608115454258</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1608115454258</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +357,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add fr to grids" />
     <MESSAGE value="add grids 4&#10;changed colors&#10;tried to add logo" />
     <MESSAGE value="changed logo" />
     <MESSAGE value="changed all" />
@@ -373,7 +381,8 @@
     <MESSAGE value="Creating Project Block" />
     <MESSAGE value="Finished BenefitBlock" />
     <MESSAGE value="Working on project Block" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on project Block" />
+    <MESSAGE value="Finished Projects and Clients Blocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Projects and Clients Blocks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608045548803">
@@ -381,6 +390,10 @@
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1608045548803" />
     <state x="184" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.819@0.23.1440.819" timestamp="1605869057140" />
+    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610378729709">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1610378729709" />
     <state x="144" y="94" key="MergeDialog" timestamp="1605879109141">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
@@ -393,15 +406,15 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604509277446" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608046631729">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608115460887">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608046631729" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608115460887" />
     <state x="320" y="196" key="Vcs.Push.Dialog.v2/0.23.1440.819@0.23.1440.819" timestamp="1605869541435" />
-    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608044218620">
+    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610379041887">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1608044218620" />
+    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1610379041887" />
     <state x="518" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.819@0.23.1440.819" timestamp="1605879093297" />
   </component>
 </project>

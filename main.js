@@ -1,7 +1,11 @@
-var THEME_NUMBER = 1;
-var DEFAULT_THEME = 1;
-var EXT = 'less';
+window.onscroll = scroller;
+let scrolling = 0,
+  change = document.querySelector('.page-header')
 
-function getUrl() {
-  return 'dark-theme.css'
+  function.scroller() {
+  if(window.pageYOffset > scrolling){
+    scrolling = window.pageYOffset;
+    change.className = 'absolute';
+    else{ change.className = 'fixed';}
+  }
 }
