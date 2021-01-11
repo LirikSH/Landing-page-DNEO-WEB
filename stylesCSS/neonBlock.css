@@ -1,0 +1,52 @@
+/* Блок с неоновой вывеской */
+.neonBlock {
+  height: 768px;
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  border-radius: 0 0 12px 12px;
+}
+.neonImage{
+  background-image: url("../img/StartGallery/BP_after.jpg");
+  background-image: url("../img/StartGallery/BackGray.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+.neonTitle {
+  grid-column: 5/9;
+  grid-row: 5/11;
+  font-family: Screpka;
+  font-style: normal;
+  font-size: 310px;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.035em;
+  color: #FF9435;
+}
+
+.neonTitle:active,
+.neonTitle:focus,
+.neonTitle:hover{
+  color: #FF9435;
+  text-shadow: 0 0 25px rgba(255, 148, 53, 0.5)
+  , 8px 12px 5px rgba(0, 0, 0, 0.25);
+}
+
+.topUsText{
+  grid-column: 3/11;
+  grid-row: 11/13;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 36px;
+  line-height: 40px;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  color: #F5F5F5;
+  z-index: 5;
+}

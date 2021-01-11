@@ -1,0 +1,22 @@
+/*Тело сайта*/
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 90px auto 100px;
+  margin: 0;
+  font-family: HelveticaNeueCyr, "Montserrat", "Arial", sans-serif;
+}
+
+/* Контент сайта */
+
+.page-main {
+  grid-column: 1/-1;
+  grid-row: 1/3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+
+
+
