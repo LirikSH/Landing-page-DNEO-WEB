@@ -1,14 +1,5 @@
 /*Блок с преимуществами*/
-.article{
-  font-weight: bold;
-  font-size: 42px;
-  line-height: 52px;
-  text-align: right;
-  align-self: start;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #FF9435;
-  color: #FFFFFF;
-}
+
 
 .benefitBlock{
   height: 1752px;
@@ -17,16 +8,26 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
-  1fr 1fr 1fr 1fr 1fr 1fr;
-  justify-items: center;
+                      1fr 1fr 1fr 1fr 1fr 1fr;
+ column-gap: 10px;
   font-style: normal;
   font-weight: 280;
   font-size: 20px;
   color: #5D5D5D;
 }
-
+.article{
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: right;
+  justify-self: end;
+  align-self: start;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #FF9435;
+  color: #FFFFFF;
+}
 .benefitBlockTitleOrange {
-  grid-column: -2/-10;
+  grid-column: -2/-11;
   grid-row: 2/3;
   justify-items: end;
 }
@@ -69,42 +70,42 @@ animation: benefitBlockTitle 4s infinite linear;
 }
 
 .fullBenefitTitle {
-  grid-column: 3/8;
+  grid-column: 4/9;
   grid-row: 3/4;
-  justify-self: left;
+  justify-self: start;
   align-self: center;
 }
 
 .fullBenefitImage {
-  grid-column: 3/7;
+  grid-column: 4/9;
   grid-row: 4/9;
   align-self: center;
   justify-self: start;
 }
 
 .fullBenefitText{
-  grid-column: 3/9;
+  grid-column: 4/9;
   grid-row: 9/10;
   justify-self: left;
   align-self: center;
 }
 
 .speedBenefitTitle {
-  grid-column: 13/19;
+  grid-column: 13/18;
   grid-row: 7/8;
-  justify-self: right;
+  justify-self: end;
   align-self: center;
 }
 
 .speedBenefitImage {
-  grid-column: 14/19;
+  grid-column: 13/18;
   grid-row: 8/12;
   align-self: center;
   justify-self: end;
 }
 
 .speedBenefitText{
-  grid-column: 13/19;
+  grid-column: 13/18;
   grid-row: 12/13;
   font-style: normal;
   text-align: right;
@@ -113,66 +114,66 @@ animation: benefitBlockTitle 4s infinite linear;
 }
 
 .experienceBenefitTitle {
-  grid-column: 3/7;
+  grid-column: 4/9;
   grid-row: 11/12;
   justify-self: left;
   align-self: center;
 }
 
 .experienceBenefitImage {
-  grid-column: 3/7;
+  grid-column: 4/9;
   grid-row: 12/17;
   align-self: center;
   justify-self: start;
 }
 
 .experienceBenefitText{
-  grid-column: 3/9;
+  grid-column: 4/9;
   grid-row: 17/18;
   align-self: center;
-  justify-self: left;
+  justify-self: start;
 }
 
 .uniqueBenefitTitle {
-  grid-column: 16/19;
+  grid-column: 13/18;
   grid-row: 14/15;
-  justify-self: right;
+  justify-self: end;
   align-self: center;
 }
 
 .uniqueBenefitImage {
-  grid-column: 13/19;
+  grid-column: 13/18;
   grid-row: 15/19;
   align-self: center;
   justify-self: end;
 }
 
 .uniqueBenefitText{
-  grid-column: 13/19;
+  grid-column: 13/18;
   grid-row: 19/20;
   text-align: right;
-  justify-self: right;
+  justify-self: end;
   align-self: center;
 }
 
 .accuracyBenefitTitle {
-  grid-column: 3/7;
+  grid-column: 4/9;
   grid-row: 19/20;
-  justify-self: left;
+  justify-self: start;
   align-self: center;
 }
 
 .accuracyBenefitImage {
-  grid-column: 3/8;
+  grid-column: 4/9;
   grid-row: 20/25;
   align-self: center;
   justify-self: start;
 }
 
 .accuracyBenefitText{
-  grid-column: 3/9;
+  grid-column: 4/9;
   grid-row: 25/26;
-  justify-self: left;
+  justify-self: start;
   align-self: center;
 }
 
@@ -180,4 +181,5 @@ animation: benefitBlockTitle 4s infinite linear;
   grid-column: 9/13;
   grid-row: 6/22;
   align-self: center;
+  justify-self: center;
 }
