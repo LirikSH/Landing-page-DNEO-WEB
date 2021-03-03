@@ -4,7 +4,8 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 90px auto 100px;
   margin: 0;
-  font-family: HelveticaNeueCyr, "Montserrat", "Arial", sans-serif;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  z-index: 50;
 }
 
 /* Контент сайта */
@@ -16,7 +17,4 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto auto auto auto auto;
 }
-
-
-
 

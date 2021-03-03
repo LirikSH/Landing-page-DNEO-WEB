@@ -3,32 +3,54 @@
 <head>
   <meta charset='UTF-8'>
   <link rel='stylesheet' href='stylesCSS/main.css'>
-  <link rel='stylesheet' href="stylesCSS/header.css">
-  <link rel='stylesheet' href="stylesCSS/neonBlock.css">
-  <link rel='stylesheet' href="stylesCSS/benefitBlock.css">
-  <link rel='stylesheet' href="stylesCSS/projectBlock.css">
-  <link rel='stylesheet' href="stylesCSS/clientBlock.css">
+
+  <link rel='stylesheet' href='stylesCSS/header.css'>
+
+  <link rel='stylesheet' href='stylesCSS/burger.css'>
+
+  <link rel='stylesheet' href='stylesCSS/neonBlock.css'>
+  <link rel='stylesheet' href='stylesCSS/benefitBlock.css'>
+  <link rel='stylesheet' href='stylesCSS/projectBlock.css'>
+  <link rel='stylesheet' href='stylesCSS/projectSlider.css'>
+
+  <link rel='stylesheet' href='stylesCSS/clientBlock.css'>
   <link rel='stylesheet' href='stylesCSS/formBlock.css'>
+
   <link rel='stylesheet' href='stylesCSS/footer.css'>
+
   <title>Dineo</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
 </head>
 
 <body>
-
   <header class="page-header">
   <img class="logo" src="img/Logo/D-neo_logo.png" height=62px width=111px alt='Логотип Dineo'>
-  <a class="phone-number">+7 495 772-52-68</a>
-  <img class="menu" href="#" src="Menu.svg" height=30px width=60px alt='Значок меню'>
+  <a class="headerNumber" id="headerNumber">+7 495 772-52-68</a>
+  <button class="posMenu openBurgerMenu" id="burgerMenuOn" onclick="burgerMenuOnClick()"></button>
+    <button class="posMenu buttonClose burgerNull" id="burgerMenuOff" onclick="burgerMenuOnClick()">
+    </button>
+  <div class="burgerMenu burgerNull" id="burgerMenu">
+    <a class="burgerBenefit burgerText" href="#benefitBlock">Преимущества</a>
+    <a class="burgerProjects burgerText" href="#projectBlock">Проекты</a>
+    <a class="burgerClients burgerText" href="#clientBlock">Клиенты</a>
+    <a class="burgerForms burgerText" href="#formBlock">Оставить заявку</a>
+    <a class="burgerNumber burgerText">+7 495 772-52-68</a>
+    <a class="burgerEmail burgerText">info@d-neo.ru</a>
+  </div>
+
+
 </header>
 
   <main class="page-main">
-  <div class="neonBlock neonImage">
+
+
+
+  <div class="neonBlock neonImage" id="pageMain">
     <a class="neonTitle">DNEO</a>
     <a class="topUsText">Изготовление, монтаж и обслуживание любых <br> рекламных и брендовых вывесок</a>
   </div>
 
-  <div class="benefitBlock">
+  <div class="benefitBlock" id="benefitBlock">
     <a class="article benefitBlockTitleOrange">НАШИ ПРЕИМУЩЕСТВА</a>
     <!-- <a class="benefitBlockTitleBlack">
       НАШИ ПРЕИМУЩЕСТВА
@@ -58,7 +80,7 @@
 
   </div>
 
-  <div class="projectBlock">
+  <div class="projectBlock" id="projectBlock">
     <a class="article projectBlockTitle">НАШИ ПРОЕКТЫ</a>
 
     <img class="arrowLeft" src="img/Projects/arrowLeft.png" height="16" width="68">
@@ -68,24 +90,59 @@
     <img class="circleCenterRenderResult" src="img/Projects/circleCenterRenderResult .png" height="48" width="48">
     <img class="centerLineRenderResult" src="img/Projects/centerLineRenderResult.png" height="524" width="1">
 
-    <a class="projectText britishPetroleumText">British&#160;Petroleum</a>
-    <a class="projectText elgaugolText">Эльгауголь</a>
-    <a class="projectText lorealText">Loreal</a>
-    <a class="projectText gloraxText">Glorax</a>
-    <a class="projectText eatMeatText">EatMeat</a>
+    <a class="britishPetroleumText projectText ">British&#160;Petroleum</a>
+    <a class="elgaugolText projectText ">Эльгауголь</a>
+    <a class="lorealText projectText ">Loreal</a>
+    <a class="gloraxText projectText ">Glorax</a>
+    <a class="eatMeatText projectText ">EatMeat</a>
 
     <img class="dashedLineProjectBlock" src="img/Projects/dashedLineProjectBlock.png" height="423" width="321">
 
     <a class="projectNumbers factNumberOfPhoto">01</a>
     <img class="projectNumbers linePhotoOfWorks" src="img/Projects/linePhotoOfWorks.png" height="100" width="3">
     <a class="projectNumbers lastNumberOfPhoto">12</a>
-    <img class="circleLeftRenderResult" src="img/Projects/circleLeftRenderResult.png" height="48" width="48">
-    <img class="circleRightRenderResult" src="img/Projects/circleRightRenderResult.png" height="48" width="48">
-    <a class="projectText ourContactText">Наши контакты</a>
-    <img class="arrowOurContacts" src="img/Projects/arrowOurContacts.png" height="97" width="16">
+
+    <!-- начало слайдера-->
+    <div class="projectSlider">
+      <div class="projectSliderDotLeft"></div>
+      <div class="projectSliderDotRight"></div>
+      <div class="projectSliderDotsCenter"></div>
+
+      <div class="projectSliderScreen"><!-- это экран -->
+
+        <div class="projectSliderElement">
+          <a class="projectSliderText">British Petroleum</a>
+          <img src="img/Projects/Photo/BP_after.jpg" alt="0" width="900" height="512">
+          <img src="img/Screen.png" alt="0" width="900" height="512">
+        </div>
+
+        <div class="projectSliderElement">
+          <a class="projectSliderText">EatMeat</a>
+          <img src="img/Projects/Photo/EatMeat_after.jpg" alt="1" width="900" height="512">
+          <img src="img/Screen.png" alt="1" width="900" height="512">
+        </div>
+
+        <div class="projectSliderElement">
+          <a class="projectSliderText">Эльгауголь</a>
+          <img src="img/Projects/Photo/Elga_after.jpg" alt="2" width="900" height="512">
+          <img src="img/Screen.png" alt="2" width="900" height="512">
+        </div>
+
+        <div class="projectSliderElement">
+          <a class="projectSliderText">Glorax</a>
+          <img src="img/Projects/Photo/Glorax_after.jpg" alt="3" width="900" height="512">
+          <img src="img/Screen.png" alt="3" width="900" height="512">
+        </div>
+
+      </div>
+    </div>
+    <!-- конец  слайдера-->
+    <a class="ourContactText" href="#clientBlock">Наши контакты</a>
+    <img class="arrowOurContacts"  src="img/Projects/arrowOurContacts.png" height="112px" width="16px">
+
   </div>
 
-  <div class="clientBlock">
+  <div class="clientBlock" id="clientBlock">
     <a class="article clientBlockTitle">НАШИ КЛИЕНТЫ</a>
     <img class="philipsLogo" src="img/Clients/String1/philipsLogo.png" height="54" width="183">
     <img class="duracellLogo" src="img/Clients/String1/duracellLogo.png" height="31" width="213">
@@ -105,7 +162,7 @@
     <img class="medLogo" src="img/Clients/String3/medLogo.png" height="90" width="162"/>
   </div>
 
-  <div class="formBlock">
+  <div class="formBlock" id="formBlock">
     <a class="article formBlockTitle">ОСТАВЬТЕ&#160;ЗАЯВКУ</a>
     <form class="mainForm">
       <a class="inputArticle formContactText">Ваши контакты</a>
@@ -119,7 +176,6 @@
       <a class="agreeText formPoliticText">Нажимая на&#160;кнопку, вы даёте соглашение на&#160;обработку персональных данных<br>и&#160;соглашаетесь с&#160;политикой конфиденциальности</a>
     </form>
   </div>
-
 </main>
 
   <footer class="page-footer">
@@ -131,7 +187,36 @@
     <a class="contacts_info">info@d-neo.ru</a>
   </footer>
 
-  <script src='main.js'></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="/js/jquery.min.js"></script>
+  <script>
+  const burgerMenuOn = document.querySelector(".burgerMenuOn");
+  const burgerMenu = document.querySelector(".burgerMenu");
+  const headerNumber = document.querySelector(".headerNumber");
+  const openBurgerMenu = document.querySelector(".openBurgerMenu");
+  const buttonClose = document.querySelector(".buttonClose");
+
+  burgerMenuOn.addEventListener("click", burgerMenuOnClick);
+
+  function burgerMenuOnClick() {
+    if (burgerMenu.classList.contains("burgerNull")){
+      burgerMenu.classList.remove("burgerNull");
+      buttonClose.classList.remove("burgerNull");
+      headerNumber.classList.add("burgerNull");
+      openBurgerMenu.classList.add("burgerNull");
+    }
+
+    else {
+      burgerMenu.classList.add("burgerNull");
+      buttonClose.classList.add("burgerNull");
+      headerNumber.classList.remove("burgerNull");
+      openBurgerMenu.classList.remove("burgerNull");
+    }
+  }
+</script>
+  <script src="../js/projectSlider.js"></script>
+
 </body>
 </html>
 

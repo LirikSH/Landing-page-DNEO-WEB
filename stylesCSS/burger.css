@@ -1,0 +1,78 @@
+.burgerMenu{
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  height: 678px;
+  width: 40vh;
+  grid-column: 1/-1;
+  grid-row: -1/-2;
+  display: grid;
+  grid-template-columns: 0.1fr 1fr 54px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 4.6fr 0.8fr 0.8fr 1fr;
+  justify-self: end;
+  z-index: 15;
+  border-radius: 0 0 12px 0;
+  background-color: #292b2c;
+}
+
+.burgerText{
+  font-size: 26px;
+  font-weight: bolder;
+  color: white;
+  justify-self: end;
+  align-self: center;
+  text-decoration: none;
+}
+
+.burgerText:hover{
+  text-shadow: 2px 6px 16px rgba(255, 255, 255, 0.15);
+}
+
+.burgerBenefit {
+  grid-column: -2/-3;
+  grid-row: 1/2;
+}
+.burgerProjects {
+  grid-column: -2/-3;
+  grid-row: 2/3;
+}
+.burgerClients{
+  grid-column: -2/-3;
+  grid-row: 3/4;
+}
+.burgerForms{
+  grid-column: -2/-3;
+  grid-row: 4/5;
+}
+
+.burgerNumber{
+  grid-column: -2/-3;
+  grid-row: -3/-4;
+  font-weight: normal;
+  font-size: 22px;
+}
+.burgerEmail{
+  grid-column: -2/-3;
+  grid-row: -2/-3;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+
+.burgerNull{
+  display: none;
+}
+
+.buttonClose {
+  background: url("../img/closeImage.png") no-repeat center;
+  background-size: 32px 32px;
+  height: 32px;
+  width: 32px;
+  border: 0;
+}
+
+.buttonClose:hover,
+.buttonClose:focus,
+.buttonClose:active {
+  background-size: 36px 36px;
+  height: 36px;
+  width: 36px;
+}

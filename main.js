@@ -1,4 +1,5 @@
-window.onscroll = scroller;
+
+/*window.onscroll = scroller;
 let scrolling = 0,
   change = document.querySelector('.page-header')
 
@@ -9,6 +10,7 @@ let scrolling = 0,
   }else{ change.className = 'fixed';
   }
 }
+*/
 
 /*
 let scrolling = 0,
@@ -28,3 +30,4 @@ window.addEventListener('scroll', () => {
     }
 }
 )
+*/
