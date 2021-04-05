@@ -8,6 +8,10 @@
 
   <link rel='stylesheet' href='stylesCSS/burger.css'>
 
+  <link rel='stylesheet' href='css/foundation.css'>
+  <link rel='stylesheet' href='css/twentytwenty.css'>
+
+
   <link rel='stylesheet' href='stylesCSS/neonBlock.css'>
   <link rel='stylesheet' href='stylesCSS/benefitBlock.css'>
   <link rel='stylesheet' href='stylesCSS/projectBlock.css'>
@@ -81,19 +85,43 @@
   <div class="projectBlock" id="projectBlock">
     <a class="article projectBlockTitle">НАШИ ПРОЕКТЫ</a>
 
+    <a class="britishPetroleumText projectText activeText" id="britishPetroleumText" onclick=beforeAfterBP()>British&#160;Petroleum</a>
+    <a class="elgaugolText projectText" id="elgaugolText" onclick=beforeAfterElga()>Эльгауголь</a>
+    <a class="eatMeatText projectText" id="eatMeatText" onclick=beforeAfterEatMeat()>EatMeat</a>
+    <a class="gloraxText projectText" id="gloraxText" onclick=beforeAfterGlorax()>Glorax</a>
+
     <img class="arrowLeft" src="img/Projects/arrowLeft.png" height="16" width="68">
     <a class="renderTitle">Рендер</a>
     <a class="resultTitle">Результат</a>
     <img class="arrowRight" src="img/Projects/arrowRight.png" height="16" width="68">
-    <img class="circleCenterRenderResult" src="img/Projects/circleCenterRenderResult .png" height="48" width="48">
-    <img class="centerLineRenderResult" src="img/Projects/centerLineRenderResult.png" height="524" width="1">
 
-    <a class="britishPetroleumText projectText ">British&#160;Petroleum</a>
-    <a class="elgaugolText projectText ">Эльгауголь</a>
-    <a class="lorealText projectText ">Loreal</a>
-    <a class="gloraxText projectText ">Glorax</a>
-    <a class="eatMeatText projectText ">EatMeat</a>
+    <div class="beforeAfter">
+    <div class="britishPetroleumContainer twentytwenty-container" id="britishPetroleumContainer">
+      <img src="img/Projects/AfterBefore/BP_before.jpg">
+      <img src="img/Projects/AfterBefore/BP_after.jpg">
+    </div>
+    </div>
 
+    <div class="beforeAfter">
+      <div class="elgaContainerContainer twentytwenty-container  nullProject" id="elgaContainerContainer">
+        <img src="img/Projects/AfterBefore/Elga_before.jpg">
+        <img src="img/Projects/AfterBefore/Elga_after.jpg">
+      </div>
+    </div>
+
+    <div class="beforeAfter">
+      <div class="eatMeatContainer twentytwenty-container  nullProject" id="eatMeatContainer">
+        <img src="img/Projects/AfterBefore/EatMeat_before.jpg">
+        <img src="img/Projects/AfterBefore/EatMeat_after.jpg">
+      </div>
+    </div>
+
+    <div class="beforeAfter">
+      <div class="gloraxContainer twentytwenty-container  nullProject" id="gloraxContainer">
+        <img src="img/Projects/AfterBefore/Glorax_before.jpg">
+        <img src="img/Projects/AfterBefore/Glorax_after.jpg">
+      </div>
+    </div>
     <img class="dashedLineProjectBlock" src="img/Projects/dashedLineProjectBlock.png" height="423" width="321">
 
     <a class="projectNumbers factNumberOfPhoto">01</a>
@@ -186,9 +214,8 @@
   </footer>
 
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="/js/jquery.min.js"></script>
-  <script>
+  <!-- Скрипт Отраотка поведения меню/бургера -->
+  <script class="birgerClick">
   const burgerMenuOn = document.querySelector(".burgerMenuOn");
   const burgerMenu = document.querySelector(".burgerMenu");
   const headerNumber = document.querySelector(".headerNumber");
@@ -213,7 +240,129 @@
     }
   }
 </script>
+
+  <!-- Скрипт Отработка кликов в блоке Наши проекты -->
+  <script>
+    const britishPetroleumContainer = document.querySelector(".britishPetroleumContainer")
+    const elgaContainerContainer = document.querySelector(".elgaContainerContainer")
+    const eatMeatContainer = document.querySelector(".eatMeatContainer")
+    const gloraxContainer = document.querySelector(".gloraxContainer")
+
+    const britishPetroleumText = document.querySelector(".britishPetroleumText");
+    const elgaugolText = document.querySelector(".elgaugolText");
+    const eatMeatText = document.querySelector(".eatMeatText");
+    const gloraxText = document.querySelector(".gloraxText");
+
+    beforeAfterElga.addEventListener("click", beforeAfterElga);
+
+    function beforeAfterElga() {
+      if (elgaugolText.classList.contains("activeText")){
+        britishPetroleumText.classList.remove("activeText");
+        eatMeatText.classList.remove("activeText");
+        gloraxText.classList.remove("activeText");
+      } else {
+        elgaugolText.classList.add("activeText")
+        britishPetroleumText.classList.remove("activeText");
+        eatMeatText.classList.remove("activeText");
+        gloraxText.classList.remove("activeText");
+      }
+      if (elgaContainerContainer.classList.contains("nullProject")){
+        britishPetroleumContainer.classList.add("nullProject");
+        elgaContainerContainer.classList.remove("nullProject");
+        eatMeatContainer.classList.add("nullProject");
+        gloraxContainer.classList.add("nullProject");
+      } else {
+        britishPetroleumContainer.classList.add("nullProject");
+        eatMeatContainer.classList.add("nullProject");
+        gloraxContainer.classList.add("nullProject");
+      }
+    }
+
+    beforeAfterBP.addEventListener("click", beforeAfterBP);
+    function beforeAfterBP() {
+      if (britishPetroleumText.classList.contains("activeText")){
+        elgaugolText.classList.remove("activeText");
+        eatMeatText.classList.remove("activeText");
+        gloraxText.classList.remove("activeText");
+      } else {
+        elgaugolText.classList.remove("activeText")
+        britishPetroleumText.classList.add("activeText");
+        eatMeatText.classList.remove("activeText");
+        gloraxText.classList.remove("activeText");
+      }
+      if (britishPetroleumContainer.classList.contains("nullProject")){
+        britishPetroleumContainer.classList.remove("nullProject");
+        elgaContainerContainer.classList.add("nullProject");
+        eatMeatContainer.classList.add("nullProject");
+        gloraxContainer.classList.add("nullProject");
+      } else {
+        elgaContainerContainer.classList.add("nullProject");
+        eatMeatContainer.classList.add("nullProject");
+        gloraxContainer.classList.add("nullProject");
+      }
+    }
+    beforeAfterEatMeat.addEventListener("click", beforeAfterEatMeat)
+    function beforeAfterEatMeat() {
+      if (eatMeatText.classList.contains("activeText")){
+        elgaugolText.classList.remove("activeText");
+        britishPetroleumText.classList.remove("activeText");
+        gloraxText.classList.remove("activeText");
+      } else {
+        elgaugolText.classList.remove("activeText")
+        britishPetroleumText.classList.remove("activeText");
+        eatMeatText.classList.add("activeText");
+        gloraxText.classList.remove("activeText");
+      }
+      if (eatMeatContainer.classList.contains("nullProject")){
+        britishPetroleumContainer.classList.add("nullProject");
+        elgaContainerContainer.classList.add("nullProject");
+        eatMeatContainer.classList.remove("nullProject");
+        gloraxContainer.classList.add("nullProject");
+      } else {
+        elgaContainerContainer.classList.add("nullProject");
+        britishPetroleumContainer.classList.add("nullProject");
+        gloraxContainer.classList.add("nullProject");
+      }
+    }
+    beforeAfterGlorax.addEventListener("click", beforeAfterGlorax)
+    function beforeAfterGlorax() {
+      if (gloraxText.classList.contains("activeText")){
+        elgaugolText.classList.remove("activeText");
+        britishPetroleumText.classList.remove("activeText");
+        eatMeatText.classList.remove("activeText");
+      } else {
+        elgaugolText.classList.remove("activeText")
+        britishPetroleumText.classList.remove("activeText");
+        eatMeatText.classList.remove("activeText");
+        gloraxText.classList.add("activeText");
+      }
+      if (gloraxContainer.classList.contains("nullProject")){
+        britishPetroleumContainer.classList.add("nullProject");
+        elgaContainerContainer.classList.add("nullProject");
+        eatMeatContainer.classList.add("nullProject");
+        gloraxContainer.classList.remove("nullProject");
+      } else {
+        elgaContainerContainer.classList.add("nullProject");
+        britishPetroleumContainer.classList.add("nullProject");
+        eatMeatContainer.classList.add("nullProject");
+      }
+    }
+  </script>
+
+  <!-- Скрипт Слайдер -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="../js/projectSlider.js"></script>
+
+  <!-- Скрипт До/После -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="../js/jquery.event.move.js"></script>
+  <script src="../js/jquery.twentytwenty.js"></script>
+
+  <script>
+    $(window).load(function(){
+      $(".twentytwenty-container").twentytwenty({default_offset_pct: 0.5});
+    });
+  </script>
 
 </body>
 </html>

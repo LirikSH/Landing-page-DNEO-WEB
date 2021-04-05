@@ -18,59 +18,48 @@
 }
 
 .arrowLeft{
-  grid-column: 6/8;
+  grid-column: 5/9;
   grid-row: 3/4;
-  justify-self: center;
+  justify-self: end;
   align-self: center;
+  padding-right: 150px;
 }
 
 .renderTitle{
-  grid-column: 8/9;
+  grid-column: 5/9;
   grid-row: 3/4;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
   line-height: 25px;
-  text-align: center;
+  text-align: end;
   color: #FFFFFF;
   align-self: center;
 }
 
 .resultTitle{
-  grid-column: 10/11;
+  grid-column: 10/14;
   grid-row: 3/4;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
   line-height: 25px;
-  text-align: center;
+  text-align: start;
   color: #FFFFFF;
   align-self: center;
 }
 
 .arrowRight{
-  grid-column: 11/13;
+  grid-column: 10/14;
   grid-row: 3/4;
-  justify-self: center;
+  justify-self: start;
   align-self: center;
+  padding-left: 150px;
 }
 
-.centerLineRenderResult{
-  grid-column: 9/10;
-  grid-row: 4/14;
-  justify-self: center;
-  align-self: start;
-}
-
-.circleCenterRenderResult{
-  grid-column: 9/10;
-  grid-row: 4/14;
-  justify-self: center;
-  align-self: center;
-}
 .projectText{
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 26px;
   text-align: end;
   justify-self: end;
@@ -80,6 +69,7 @@
 .projectText:active,
 .projectText:focus,
 .projectText:hover{
+  font-weight: bold;
   text-shadow: 2px 6px 16px rgba(255, 255, 255, 0.15);
 }
 
@@ -93,11 +83,6 @@
   grid-row: 5/6;
 }
 
-.lorealText{
-  grid-column: -3/-5;
-  grid-row: 6/7;
-}
-
 .gloraxText{
   grid-column: -3/-5;
   grid-row: 7/8;
@@ -105,7 +90,7 @@
 
 .eatMeatText{
   grid-column: -3/-5;
-  grid-row: 8/9;
+  grid-row: 6/7;
 }
 
 
@@ -186,3 +171,32 @@
 }
 
 
+
+.beforeAfter {
+  margin-top: 14px;
+  width: 900px;
+  height: 512px;
+  grid-column: 6/13;
+  grid-row: 4/14;
+  background-color: #FF9435;
+  border-radius: 12px;
+  justify-self: center;
+  align-self: start;
+}
+
+.radius {
+  border-radius: 12px;
+}
+
+.nullProject {
+  visibility: hidden;
+}
+
+.activeText {
+  font-weight: bold;
+  text-shadow: 2px 6px 16px rgba(255, 255, 255, 0.15);
+}
+
+.britishPetroleumBefore {
+  background-image: url("img/Projects/AfterBefore/BP_before.jpg");
+}

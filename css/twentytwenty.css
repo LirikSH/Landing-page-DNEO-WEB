@@ -1,0 +1,61 @@
+.twentytwenty-handle:before, .twentytwenty-handle:after {
+  content: " ";
+  display: block;
+  width: 3px;
+  background: white;
+  height: 512px;
+  position: absolute;
+  left: 50%;
+  margin-left: -2px;
+  z-index: 30;
+}
+
+.twentytwenty-container {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  overflow: hidden;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  border-radius: 12px;
+}
+
+
+  .twentytwenty-container img {
+    height: 512px;
+    width:900px;
+    position: absolute;
+    top: 0;
+    display: block;
+  }
+
+
+.twentytwenty-before {
+  z-index: 20; }
+
+.twentytwenty-after {
+  z-index: 10; }
+
+.twentytwenty-handle {
+  position: absolute;
+  height: 48px;
+  width: 48px;
+  left: 50%;
+  top: 50%;
+  margin-left: -22px;
+  margin-top: -22px;
+  background-image: url("../img/Projects/circleCenterRenderResult.png");
+  z-index: 40;
+}
+
+.twentytwenty-handle:before {
+    bottom: 50%;
+    margin-bottom: 22px;
+}
+
+  .twentytwenty-handle:after {
+    top: 50%;
+    margin-top: 22px;
+  }
+
