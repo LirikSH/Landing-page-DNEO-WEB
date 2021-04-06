@@ -8,7 +8,6 @@
 
   <link rel='stylesheet' href='stylesCSS/burger.css'>
 
-  <link rel='stylesheet' href='css/foundation.css'>
   <link rel='stylesheet' href='css/twentytwenty.css'>
 
 
@@ -28,8 +27,8 @@
 
 <body>
   <header class="page-header">
-  <img class="logo" src="img/Logo/D-neo_logo.png" height=62px width=111px alt='Логотип Dineo'>
-  <a class="headerNumber" id="headerNumber">+7 495 772-52-68</a>
+  <img class="logo" src="img/Logo/D-neo_logo.png" height="62" width="111" alt='Логотип Dineo'>
+  <a class="headerNumber" id="headerNumber" href="tel:+74957725268">+7 495 772-52-68</a>
   <button class="posMenu openBurgerMenu" id="burgerMenuOn" onclick="burgerMenuOnClick()"></button>
     <button class="posMenu buttonClose burgerNull" id="burgerMenuOff" onclick="burgerMenuOnClick()">
     </button>
@@ -38,8 +37,8 @@
     <a class="burgerProjects burgerText" href="#projectBlock">Проекты</a>
     <a class="burgerClients burgerText" href="#clientBlock">Клиенты</a>
     <a class="burgerForms burgerText" href="#formBlock">Оставить заявку</a>
-    <a class="burgerNumber burgerText">+7 495 772-52-68</a>
-    <a class="burgerEmail burgerText">info@d-neo.ru</a>
+    <a class="burgerNumber burgerText" href="tel:+74957725268">+7 495 772-52-68</a>
+    <a class="burgerEmail burgerText" href="mailto:info@d-neo.ru">info@d-neo.ru</a>
   </div>
 
 
@@ -124,47 +123,60 @@
     </div>
     <img class="dashedLineProjectBlock" src="img/Projects/dashedLineProjectBlock.png" height="423" width="321">
 
-    <a class="projectNumbers factNumberOfPhoto">01</a>
-    <img class="projectNumbers linePhotoOfWorks" src="img/Projects/linePhotoOfWorks.png" height="100" width="3">
-    <a class="projectNumbers lastNumberOfPhoto">12</a>
+
+
 
     <!-- начало слайдера-->
     <div class="projectSlider">
       <div class="projectSliderDotLeft"></div>
       <div class="projectSliderDotRight"></div>
       <div class="projectSliderDotsCenter"></div>
+      <img class="linePhotoOfWorks" src="img/Projects/linePhotoOfWorks.png" height="100" width="3">
+      <a class="projectNumbers lastNumberOfPhoto">4</a>
 
-      <div class="projectSliderScreen"><!-- это экран -->
+      <div class="projectSliderScreen" id="projectSliderScreen">
+        <!-- это экран -->
 
         <div class="projectSliderElement">
-          <a class="projectSliderText">British Petroleum</a>
-          <img src="img/Projects/Photo/BP_after.jpg" alt="0" width="900" height="512">
-          <img src="img/Screen.png" alt="0" width="900" height="512">
+
+            <a class="projectSliderText">British Petroleum</a>
+            <img src="img/Projects/Photo/BP_after.jpg" width="900" height="512">
+            <img src="img/Screen.png"  width="900" height="512">
+
+          <a class="factNumberOfPhoto">1</a>
         </div>
+
 
         <div class="projectSliderElement">
           <a class="projectSliderText">EatMeat</a>
-          <img src="img/Projects/Photo/EatMeat_after.jpg" alt="1" width="900" height="512">
-          <img src="img/Screen.png" alt="1" width="900" height="512">
+          <img src="img/Projects/Photo/EatMeat_after.jpg" width="900" height="512">
+          <img src="img/Screen.png" width="900" height="512">
+          <a class="factNumberOfPhoto">2</a>
         </div>
+
 
         <div class="projectSliderElement">
           <a class="projectSliderText">Эльгауголь</a>
-          <img src="img/Projects/Photo/Elga_after.jpg" alt="2" width="900" height="512">
-          <img src="img/Screen.png" alt="2" width="900" height="512">
+          <img src="img/Projects/Photo/Elga_after.jpg" width="900" height="512">
+          <img src="img/Screen.png" width="900" height="512">
+          <a class="factNumberOfPhoto">3</a>
         </div>
 
         <div class="projectSliderElement">
           <a class="projectSliderText">Glorax</a>
-          <img src="img/Projects/Photo/Glorax_after.jpg" alt="3" width="900" height="512">
-          <img src="img/Screen.png" alt="3" width="900" height="512">
+          <img src="img/Projects/Photo/Glorax_after.jpg" width="900" height="512">
+          <img src="img/Screen.png"  width="900" height="512">
+          <a class="factNumberOfPhoto">4</a>
         </div>
 
       </div>
     </div>
     <!-- конец  слайдера-->
+
     <a class="ourContactText" href="#clientBlock">Наши контакты</a>
-    <img class="arrowOurContacts"  src="img/Projects/arrowOurContacts.png" height="112px" width="16px">
+    <a class="arrowOurContacts" href="#clientBlock">
+      <img src="img/Projects/arrowOurContacts.png" height="112" width="16">
+    </a>
 
   </div>
 
@@ -194,7 +206,7 @@
       <a class="inputArticle formContactText">Ваши контакты</a>
       <input type="text" placeholder="Имя" class="inputArea inputAreaSmall inputName">
       <input placeholder="Телефон*" class="inputArea inputAreaSmall inputPhone">
-      <input type="email"placeholder="E-mail" class="inputArea inputAreaSmall inputEmail">
+      <input type="email" placeholder="E-mail" class="inputArea inputAreaSmall inputEmail">
       <a class="inputArticle formQuestionText">Вопрос?</a>
       <textarea class="inputArea inputAreaLarge inputQuestion"></textarea>
       <input type="file" value="Прикрепить файл" class="fileButton">
@@ -205,16 +217,16 @@
 </main>
 
   <footer class="page-footer">
-    <a class="dneo_id"> @Dneo </a>
-    <a class="facebook" href="https://www.facebook.com/dneoru/ ">Facebook</a>
-    <a class="instagram" href="https://www.instagram.com/dineo.ru/">Instagram</a>
-    <a class="youtube" href="https://www.youtube.com/channel/UCehHR4nuAkCNW8LNGWap.">YouTube</a>
-    <a class="contacts_number">+7 495 772-52-68</a>
-    <a class="contacts_info">info@d-neo.ru</a>
+    <a class="dneo_id footerText">@Dneo</a>
+    <a class="facebook footerText" href="https://www.facebook.com/dneoru/ ">Facebook</a>
+    <a class="instagram footerText" href="https://www.instagram.com/dineo.ru/">Instagram</a>
+    <a class="youtube footerText" href="https://www.youtube.com/channel/UCehHR4nuAkCNW8LNGWap.">YouTube</a>
+    <a class="contacts_number footerText" href="tel:+74957725268">+7 495 772-52-68</a>
+    <a class="contacts_info footerText" href="mailto:info@d-neo.ru">info@d-neo.ru</a>
   </footer>
 
 
-  <!-- Скрипт Отраотка поведения меню/бургера -->
+  <!-- Скрипт Отработка поведения меню/бургера -->
   <script class="birgerClick">
   const burgerMenuOn = document.querySelector(".burgerMenuOn");
   const burgerMenu = document.querySelector(".burgerMenu");

@@ -102,35 +102,13 @@
 }
 
 .projectNumbers{
-  font-size: 26px;
+  font-size: 28px;
   text-align: center;
   color: #FFFFFF;
   justify-self: center;
   align-self: center;
 }
 
-.projectNumbers:active,
-.projectNumbers:focus,
-.projectNumbers:hover{
-  font-size: 32px;
-  font-weight: bold;
-  text-shadow: 2px 6px 16px rgba(255, 255, 255, 0.15);
-
-}
-.factNumberOfPhoto{
-  grid-column: 4/6;
-  grid-row: -10/-11;
-}
-
-.linePhotoOfWorks{
-  grid-column: 4/6;
-  grid-row: -8/-10;
-}
-
-.lastNumberOfPhoto{
-  grid-column: 4/6;
-  grid-row: -7/-8;
-}
 
 .circleLeftRenderResult{
   grid-column: 6/7;
