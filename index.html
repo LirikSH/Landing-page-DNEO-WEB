@@ -10,7 +10,6 @@
 
   <link rel='stylesheet' href='css/twentytwenty.css'>
 
-
   <link rel='stylesheet' href='stylesCSS/neonBlock.css'>
   <link rel='stylesheet' href='stylesCSS/benefitBlock.css'>
   <link rel='stylesheet' href='stylesCSS/projectBlock.css'>
@@ -26,17 +25,17 @@
 </head>
 
 <body>
-  <header class="page-header">
+  <header class="page-header" id="pageHeader">
   <img class="logo" src="img/Logo/D-neo_logo.png" height="62" width="111" alt='Логотип Dineo'>
   <a class="headerNumber" id="headerNumber" href="tel:+74957725268">+7 495 772-52-68</a>
   <button class="posMenu openBurgerMenu" id="burgerMenuOn" onclick="burgerMenuOnClick()"></button>
     <button class="posMenu buttonClose burgerNull" id="burgerMenuOff" onclick="burgerMenuOnClick()">
     </button>
   <div class="burgerMenu burgerNull" id="burgerMenu">
-    <a class="burgerBenefit burgerText" href="#benefitBlock">Преимущества</a>
-    <a class="burgerProjects burgerText" href="#projectBlock">Проекты</a>
-    <a class="burgerClients burgerText" href="#clientBlock">Клиенты</a>
-    <a class="burgerForms burgerText" href="#formBlock">Оставить заявку</a>
+    <a class="burgerBenefit burgerText" href="#benefitBlock" id="burgerBenefit">Преимущества</a>
+    <a class="burgerProjects burgerText" href="#projectBlock" id="burgerProjects">Проекты</a>
+    <a class="burgerClients burgerText" href="#clientBlock" id="burgerClients">Клиенты</a>
+    <a class="burgerForms burgerText" href="#formBlock" id="burgerForms">Оставить заявку</a>
     <a class="burgerNumber burgerText" href="tel:+74957725268">+7 495 772-52-68</a>
     <a class="burgerEmail burgerText" href="mailto:info@d-neo.ru">info@d-neo.ru</a>
   </div>
@@ -44,9 +43,9 @@
 
 </header>
 
-  <main class="page-main">
+  <main class="page-main" id="pageMain">
 
-  <div class="neonBlock neonImage" id="pageMain">
+  <div class="neonBlock neonImage" id="neonBlock">
     <a class="neonTitle">DNEO</a>
     <a class="topUsText">Изготовление, монтаж и обслуживание любых <br> рекламных и брендовых вывесок</a>
   </div>
@@ -209,7 +208,7 @@
       <input type="email" placeholder="E-mail" class="inputArea inputAreaSmall inputEmail">
       <a class="inputArticle formQuestionText">Вопрос?</a>
       <textarea class="inputArea inputAreaLarge inputQuestion"></textarea>
-      <input type="file" value="Прикрепить файл" class="fileButton">
+      <input type="file" value="Прикрепить файл" class="fileButton" id="inputFile">
       <input type="submit" value="Оставить заявку" class="submitButton">
       <a class="agreeText formPoliticText">Нажимая на&#160;кнопку, вы даёте соглашение на&#160;обработку персональных данных<br>и&#160;соглашаетесь с&#160;политикой конфиденциальности</a>
     </form>
@@ -225,16 +224,13 @@
     <a class="contacts_info footerText" href="mailto:info@d-neo.ru">info@d-neo.ru</a>
   </footer>
 
-
-  <!-- Скрипт Отработка поведения меню/бургера -->
-  <script class="birgerClick">
+  <!-- Скрипты Отработка поведения меню/бургера -->
+  <script class="burgerClick">
   const burgerMenuOn = document.querySelector(".burgerMenuOn");
   const burgerMenu = document.querySelector(".burgerMenu");
   const headerNumber = document.querySelector(".headerNumber");
   const openBurgerMenu = document.querySelector(".openBurgerMenu");
   const buttonClose = document.querySelector(".buttonClose");
-
-  burgerMenuOn.addEventListener("click", burgerMenuOnClick);
 
   function burgerMenuOnClick() {
     if (burgerMenu.classList.contains("burgerNull")){
@@ -251,7 +247,21 @@
       openBurgerMenu.classList.remove("burgerNull");
     }
   }
+
+
 </script>
+  <script>
+    document.onclick = function(e) {
+      if (event.target.id !== 'burgerMenuOn')
+      {
+        burgerMenu.classList.add("burgerNull");
+        buttonClose.classList.add("burgerNull");
+        headerNumber.classList.remove("burgerNull");
+        openBurgerMenu.classList.remove("burgerNull");
+      }
+    }
+
+  </script>
 
   <!-- Скрипт Отработка кликов в блоке Наши проекты -->
   <script>
@@ -264,8 +274,6 @@
     const elgaugolText = document.querySelector(".elgaugolText");
     const eatMeatText = document.querySelector(".eatMeatText");
     const gloraxText = document.querySelector(".gloraxText");
-
-    beforeAfterElga.addEventListener("click", beforeAfterElga);
 
     function beforeAfterElga() {
       if (elgaugolText.classList.contains("activeText")){
@@ -290,7 +298,6 @@
       }
     }
 
-    beforeAfterBP.addEventListener("click", beforeAfterBP);
     function beforeAfterBP() {
       if (britishPetroleumText.classList.contains("activeText")){
         elgaugolText.classList.remove("activeText");
@@ -313,7 +320,7 @@
         gloraxContainer.classList.add("nullProject");
       }
     }
-    beforeAfterEatMeat.addEventListener("click", beforeAfterEatMeat)
+
     function beforeAfterEatMeat() {
       if (eatMeatText.classList.contains("activeText")){
         elgaugolText.classList.remove("activeText");
@@ -336,7 +343,7 @@
         gloraxContainer.classList.add("nullProject");
       }
     }
-    beforeAfterGlorax.addEventListener("click", beforeAfterGlorax)
+
     function beforeAfterGlorax() {
       if (gloraxText.classList.contains("activeText")){
         elgaugolText.classList.remove("activeText");
@@ -359,6 +366,7 @@
         eatMeatContainer.classList.add("nullProject");
       }
     }
+
   </script>
 
   <!-- Скрипт Слайдер -->
