@@ -6,7 +6,7 @@
   grid-column: 1/-1;
   grid-row: 2/3;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
                       1fr 1fr 1fr 1fr 1fr 1fr;
  column-gap: 10px;
@@ -18,11 +18,11 @@
 .article{
   font-weight: bold;
   font-size: 42px;
-  line-height: 52px;
-  text-align: right;
+  font-family: Helvetica;
+  letter-spacing: 0.9px;
   justify-self: end;
   align-self: start;
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 0.85px;
   -webkit-text-stroke-color: #FF9435;
   color: #FFFFFF;
 }
@@ -86,37 +86,36 @@ animation: benefitBlockTitle 4s infinite linear;
 .fullBenefitText{
   grid-column: 4/9;
   grid-row: 9/10;
-  justify-self: left;
+  justify-self: start;
   align-self: center;
 }
 
 .speedBenefitTitle {
-  grid-column: 13/18;
+  grid-column: 12/17;
   grid-row: 7/8;
-  justify-self: end;
+  justify-self: start;
   align-self: center;
 }
 
 .speedBenefitImage {
-  grid-column: 13/18;
+  grid-column: 12/17;
   grid-row: 8/12;
   align-self: center;
-  justify-self: end;
+  justify-self: start;
 }
 
 .speedBenefitText{
-  grid-column: 13/18;
+  grid-column: 12/17;
   grid-row: 12/13;
   font-style: normal;
-  text-align: right;
-  justify-self: right;
+  justify-self: start;
   align-self: center;
 }
 
 .experienceBenefitTitle {
   grid-column: 4/9;
   grid-row: 11/12;
-  justify-self: left;
+  justify-self: start;
   align-self: center;
 }
 
@@ -135,24 +134,23 @@ animation: benefitBlockTitle 4s infinite linear;
 }
 
 .uniqueBenefitTitle {
-  grid-column: 13/18;
+  grid-column: 12/17;
   grid-row: 14/15;
-  justify-self: end;
+  justify-self: start;
   align-self: center;
 }
 
 .uniqueBenefitImage {
-  grid-column: 13/18;
+  grid-column: 12/17;
   grid-row: 15/19;
   align-self: center;
-  justify-self: end;
+  justify-self: start;
 }
 
 .uniqueBenefitText{
-  grid-column: 13/18;
+  grid-column: 12/17;
   grid-row: 19/20;
-  text-align: right;
-  justify-self: end;
+  justify-self: start;
   align-self: center;
 }
 
@@ -178,7 +176,7 @@ animation: benefitBlockTitle 4s infinite linear;
 }
 
 .lineTDBenefit {
-  grid-column: 9/13;
+  grid-column:8/11;
   grid-row: 6/22;
   align-self: center;
   justify-self: center;

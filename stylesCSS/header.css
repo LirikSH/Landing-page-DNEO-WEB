@@ -51,6 +51,7 @@ header {
   border-bottom: white 2px solid;
   border-top: white 2px solid;
   background-color: #292B2C;
+  cursor: pointer;
 }
 
 .openBurgerMenu:active,
@@ -63,3 +64,5 @@ header {
   border-top: white 2px solid;
   background-color: #292B2C;
 }
+
+

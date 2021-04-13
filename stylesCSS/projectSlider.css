@@ -13,7 +13,7 @@
 
 .factNumberOfPhoto{
   grid-column: 1/2;
-  grid-row: 3/4;
+  grid-row: 3/5;
   font-size: 32px;
   font-weight: bold;
   text-shadow: 2px 6px 16px rgba(255, 255, 255, 0.15);
@@ -21,16 +21,19 @@
   color: #FFFFFF;
   justify-self: center;
   align-self: center;
+  object-fit: cover
 }
 .linePhotoOfWorks{
   grid-column: 1/2;
   grid-row: 3/7;
   justify-self: center;
   align-self: center;
+  height: 60px;
+  transform: skew(-45deg, 0);
 }
 .lastNumberOfPhoto {
   grid-column: 1/2;
-  grid-row: 6/7;
+  grid-row: 5/7;
   justify-self: center;
   align-self: center;
 }
@@ -41,6 +44,7 @@
   justify-self: end;
   align-self: center;
   border-radius: 18px;
+  object-fit: cover
  }
 
 .projectSliderScreen {
@@ -53,7 +57,7 @@
 .projectSliderElement {
   width: 1040px;
   height: 512px;
-  transition: opacity 1s ease-in;
+  transition: opacity 0.8s ease-in;
   position: absolute;
   grid-row: 1/-1;
   grid-column: 1/-1;

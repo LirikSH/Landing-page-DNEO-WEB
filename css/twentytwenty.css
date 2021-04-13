@@ -28,6 +28,7 @@
     position: absolute;
     top: 0;
     display: block;
+    object-fit: cover
   }
 
 
@@ -46,8 +47,16 @@
   margin-left: -22px;
   margin-top: -22px;
   background-image: url("../img/Projects/circleCenterRenderResult.png");
+  background-repeat: no-repeat;
+  background-blend-mode: normal;
+  background-size: cover;
   z-index: 40;
 }
+
+.twentytwenty-handle:hover {
+  transform: scale(1.1)
+}
+
 
 .twentytwenty-handle:before {
     bottom: 50%;

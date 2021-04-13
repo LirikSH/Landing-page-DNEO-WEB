@@ -3,7 +3,7 @@
 <head>
   <meta charset='UTF-8'>
   <link rel='stylesheet' href='stylesCSS/main.css'>
-
+  <link rel="stylesheet" href="stylesCSS/ProjectSliderNeon.css">
   <link rel='stylesheet' href='stylesCSS/header.css'>
 
   <link rel='stylesheet' href='stylesCSS/burger.css'>
@@ -16,6 +16,8 @@
   <link rel='stylesheet' href='stylesCSS/projectSlider.css'>
 
   <link rel='stylesheet' href='stylesCSS/clientBlock.css'>
+  <link rel="stylesheet" href="stylesCSS/projectSliderLogo.css">
+
   <link rel='stylesheet' href='stylesCSS/formBlock.css'>
 
   <link rel='stylesheet' href='stylesCSS/footer.css'>
@@ -41,14 +43,33 @@
   </div>
 
 
+
 </header>
 
   <main class="page-main" id="pageMain">
 
-  <div class="neonBlock neonImage" id="neonBlock">
+  <div class="neonBlock" id="neonBlock">
     <a class="neonTitle">DNEO</a>
     <a class="topUsText">Изготовление, монтаж и обслуживание любых <br> рекламных и брендовых вывесок</a>
-  </div>
+
+    <!-- начало слайдера Neon-->
+    <div class="projectSliderNeon">
+
+      <div class="projectSliderScreenNeon" id="projectSliderScreenNeon">
+        <!-- это экран -->
+
+        <div class="projectSliderElementNeon">
+          <img src="img/StartGallery/BP.jpg">
+          <img src="img/Screen.png">
+        </div>
+
+        <div class="projectSliderElementNeon">
+          <img src="img/Projects/Photo/EatMeat_after.jpg">
+          <img src="img/Screen.png">
+          </div>
+        </div>
+      </div>
+    </div>
 
   <div class="benefitBlock" id="benefitBlock">
     <a class="article benefitBlockTitleOrange">НАШИ ПРЕИМУЩЕСТВА</a>
@@ -140,7 +161,7 @@
 
             <a class="projectSliderText">British Petroleum</a>
             <img src="img/Projects/Photo/BP_after.jpg" width="900" height="512">
-            <img src="img/Screen.png"  width="900" height="512">
+            <img src="img/ScreenSmall.png"  width="900" height="512">
 
           <a class="factNumberOfPhoto">1</a>
         </div>
@@ -149,7 +170,7 @@
         <div class="projectSliderElement">
           <a class="projectSliderText">EatMeat</a>
           <img src="img/Projects/Photo/EatMeat_after.jpg" width="900" height="512">
-          <img src="img/Screen.png" width="900" height="512">
+          <img src="img/ScreenSmall.png" width="900" height="512">
           <a class="factNumberOfPhoto">2</a>
         </div>
 
@@ -157,14 +178,14 @@
         <div class="projectSliderElement">
           <a class="projectSliderText">Эльгауголь</a>
           <img src="img/Projects/Photo/Elga_after.jpg" width="900" height="512">
-          <img src="img/Screen.png" width="900" height="512">
+          <img src="img/ScreenSmall.png" width="900" height="512">
           <a class="factNumberOfPhoto">3</a>
         </div>
 
         <div class="projectSliderElement">
           <a class="projectSliderText">Glorax</a>
           <img src="img/Projects/Photo/Glorax_after.jpg" width="900" height="512">
-          <img src="img/Screen.png"  width="900" height="512">
+          <img src="img/ScreenSmall.png"  width="900" height="512">
           <a class="factNumberOfPhoto">4</a>
         </div>
 
@@ -181,30 +202,46 @@
 
   <div class="clientBlock" id="clientBlock">
     <a class="article clientBlockTitle">НАШИ КЛИЕНТЫ</a>
-    <img class="philipsLogo" src="img/Clients/String1/philipsLogo.png" height="54" width="183">
-    <img class="duracellLogo" src="img/Clients/String1/duracellLogo.png" height="31" width="213">
-    <img class="lorealLogo" src="img/Clients/String1/lorealLogo.png" height="33" width="177">
-    <img class="greenwayLogo" src="img/Clients/String1/greenawayLogo.png" height="38" width="248">
+    <div class="projectSliderLogo">
+      <div class="projectSliderDotLeftLogo"></div>
+      <div class="projectSliderDotRightLogo"></div>
+      <div class="projectSliderDotsCenterLogo"></div>
 
-    <img class="bpLogo" src="img/Clients/String2/bpLogo.png" height="156" width="119">
-    <img class="a_propertyLogo" src="img/Clients/String2/a_propertyLogo.png" height="123" width="251">
-    <img class="empireLogo" src="img/Clients/String2/empireLogo.png" height="159" width="133">
-    <img class="rocheLogo" src="img/Clients/String2/rocheLogo.png" height="134" width="134">
-    <img class="elgaugolLogo" src="img/Clients/String2/elgaugolLogo.png" height="92" width="92">
+      <div class="projectSliderScreenLogo" id="projectSliderScreenLogo">
+        <!-- это экран -->
 
-    <img class="s7AirlinesLogo" src="img/Clients/String3/s7AirlinesLogo.png" height="61" width="190"/>
-    <img class="yotaLogo" src="img/Clients/String3/yotaLogo.png" height="123" width="58"/>
-    <img class="gloraxLogo" src="img/Clients/String3/gloraxLogo.png" height="114" width="137"/>
-    <img class="hyveLogo" src="img/Clients/String3/hyveLogo.png" height="93" width="106"/>
-    <img class="medLogo" src="img/Clients/String3/medLogo.png" height="90" width="162"/>
+        <div class="projectSliderElementLogo">
+          <img class="s7AirlinesLogo" src="img/Clients/String3/s7AirlinesLogo.png" height="61" width="190"/>
+          <img class="yotaLogo" src="img/Clients/String3/yotaLogo.png" height="123" width="58"/>
+          <img class="gloraxLogo" src="img/Clients/String3/gloraxLogo.png" height="114" width="137"/>
+          <img class="hyveLogo" src="img/Clients/String3/hyveLogo.png" height="93" width="106"/>
+          <img class="medLogo" src="img/Clients/String3/medLogo.png" height="90" width="162"/>
+
+          <img class="bpLogo" src="img/Clients/String2/bpLogo.png" height="156" width="119">
+          <img class="a_propertyLogo" src="img/Clients/String2/a_propertyLogo.png" height="123" width="251">
+          <img class="empireLogo" src="img/Clients/String2/empireLogo.png" height="159" width="133">
+          <img class="rocheLogo" src="img/Clients/String2/rocheLogo.png" height="134" width="134">
+          <img class="elgaugolLogo" src="img/Clients/String2/elgaugolLogo.png" height="92" width="92">
+        </div>
+
+
+        <div class="projectSliderElementLogo">
+          <img class="philipsLogo" src="img/Clients/String1/philipsLogo.png" height="54" width="183">
+          <img class="duracellLogo" src="img/Clients/String1/duracellLogo.png" height="31" width="213">
+          <img class="lorealLogo" src="img/Clients/String1/lorealLogo.png" height="33" width="177">
+          <img class="greenwayLogo" src="img/Clients/String1/greenawayLogo.png" height="38" width="248">
+        </div>
+
+      </div>
+    </div>
   </div>
 
   <div class="formBlock" id="formBlock">
     <a class="article formBlockTitle">ОСТАВЬТЕ&#160;ЗАЯВКУ</a>
     <form class="mainForm">
       <a class="inputArticle formContactText">Ваши контакты</a>
-      <input type="text" placeholder="Имя" class="inputArea inputAreaSmall inputName">
-      <input placeholder="Телефон*" class="inputArea inputAreaSmall inputPhone">
+      <input type="text" placeholder="Имя*" class="inputArea inputAreaSmall inputName" required>
+      <input placeholder="Телефон*" class="inputArea inputAreaSmall inputPhone" required >
       <input type="email" placeholder="E-mail" class="inputArea inputAreaSmall inputEmail">
       <a class="inputArticle formQuestionText">Вопрос?</a>
       <textarea class="inputArea inputAreaLarge inputQuestion"></textarea>
@@ -216,7 +253,7 @@
 </main>
 
   <footer class="page-footer">
-    <a class="dneo_id footerText">@Dneo</a>
+    <a class="dneo footerText">@Dneo</a>
     <a class="facebook footerText" href="https://www.facebook.com/dneoru/ ">Facebook</a>
     <a class="instagram footerText" href="https://www.instagram.com/dineo.ru/">Instagram</a>
     <a class="youtube footerText" href="https://www.youtube.com/channel/UCehHR4nuAkCNW8LNGWap.">YouTube</a>
@@ -369,9 +406,12 @@
 
   </script>
 
+
   <!-- Скрипт Слайдер -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="../js/projectSliderNeon.js"></script>
   <script src="../js/projectSlider.js"></script>
+  <script src="../js/projectSliderLogo.js"></script>
 
   <!-- Скрипт До/После -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
