@@ -4,7 +4,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 90px auto 100px;
   margin: 0;
-  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
   z-index: 50;
 }
 

@@ -61,14 +61,14 @@
 }
 
 .fileButton{
-  grid-column: 4/6;
+  grid-column: 4/7;
   grid-row: -4/-5;
+  width: 380px;
   align-self: center;
   justify-self: start;
-  font-size: 16px;
-  background-color: white;
-  color: #BBBBBB;
-  border: white;
+  font-size: 14px;
+  color: #d0d0d0;
+  font-family: Montserrat;
 }
 
 .submitButton{
@@ -143,4 +143,30 @@
   grid-row: -5/-6;
   align-self: center;
   justify-self: end;
+}
+
+.customInputFile::-webkit-file-upload-button {
+  margin-left: -150px;
+  font-size: 18px;
+  padding-left: 12px;
+  visibility: hidden;
+  margin-right: 15px;
+}
+.customInputFile::before {
+  content: 'Прикрепить файл';
+  display: inline-block;
+  outline: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding-left: 12px;
+  background-color: white;
+  color: #BBBBBB;
+}
+.customInputFile:hover::before {
+  color: #9b9b9b;
+}
+
+input {
+  font-family: Montserrat;
 }

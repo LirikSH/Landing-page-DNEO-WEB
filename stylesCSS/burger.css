@@ -1,7 +1,7 @@
 .burgerMenu{
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   height: 678px;
-  width: 40vh;
+  width: 360px;
   grid-column: 1/-1;
   grid-row: -1/-2;
   display: grid;

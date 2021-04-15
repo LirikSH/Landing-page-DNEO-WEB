@@ -29,7 +29,7 @@
 }
 
 .projectSliderElementLogo {
-  transition: opacity 0.5s ease-in;
+  transition: opacity 0.2s ease-in;
   position: absolute;
   height: 742px;
   width: 100%;

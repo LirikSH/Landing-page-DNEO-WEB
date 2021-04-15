@@ -3,7 +3,7 @@
 <head>
   <meta charset='UTF-8'>
   <link rel='stylesheet' href='stylesCSS/main.css'>
-  <link rel="stylesheet" href="stylesCSS/ProjectSliderNeon.css">
+  <link rel="stylesheet" href="stylesCSS/projectSliderNeon.css">
   <link rel='stylesheet' href='stylesCSS/header.css'>
 
   <link rel='stylesheet' href='stylesCSS/burger.css'>
@@ -23,6 +23,7 @@
   <link rel='stylesheet' href='stylesCSS/footer.css'>
 
   <title>Dineo</title>
+  <link href="fonts/Screpka.ttf">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
 </head>
 
@@ -238,14 +239,14 @@
 
   <div class="formBlock" id="formBlock">
     <a class="article formBlockTitle">ОСТАВЬТЕ&#160;ЗАЯВКУ</a>
-    <form class="mainForm">
+    <form class="mainForm" enctype="multipart/form-data" method="post">
       <a class="inputArticle formContactText">Ваши контакты</a>
       <input type="text" placeholder="Имя*" class="inputArea inputAreaSmall inputName" required>
       <input placeholder="Телефон*" class="inputArea inputAreaSmall inputPhone" required >
       <input type="email" placeholder="E-mail" class="inputArea inputAreaSmall inputEmail">
       <a class="inputArticle formQuestionText">Вопрос?</a>
       <textarea class="inputArea inputAreaLarge inputQuestion"></textarea>
-      <input type="file" value="Прикрепить файл" class="fileButton" id="inputFile">
+      <input type="file" class="fileButton customInputFile" id="inputFile" multiple="multiple">
       <input type="submit" value="Оставить заявку" class="submitButton">
       <a class="agreeText formPoliticText">Нажимая на&#160;кнопку, вы даёте соглашение на&#160;обработку персональных данных<br>и&#160;соглашаетесь с&#160;политикой конфиденциальности</a>
     </form>
@@ -405,7 +406,6 @@
     }
 
   </script>
-
 
   <!-- Скрипт Слайдер -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

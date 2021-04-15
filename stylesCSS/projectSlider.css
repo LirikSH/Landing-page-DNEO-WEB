@@ -57,7 +57,7 @@
 .projectSliderElement {
   width: 1040px;
   height: 512px;
-  transition: opacity 0.8s ease-in;
+  transition: opacity 650ms ease-in;
   position: absolute;
   grid-row: 1/-1;
   grid-column: 1/-1;
