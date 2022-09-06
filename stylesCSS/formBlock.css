@@ -76,14 +76,20 @@
   grid-row: -3/-4;
   align-self: end;
   justify-self: end;
+  background-color: #FF9435;
+  border: 2px solid #FF9435;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  padding: 10px 14px  10px 14px;
+}
+
+.submitButton:hover,
+.submitButton:active,
+.submitButton:focus {
   background-color: white;
-  border: white;
-  border-bottom: 2px solid #FF9435;
-  border-radius: 2px;
-  color: #4F4F4F;
-  font-size: 22px;
-  font-weight: bold;
-  padding: 8px;
+  border: 2px solid #FF9435;
+  color: #292b2c;
 }
 
 .mainForm {
@@ -110,8 +116,9 @@
 }
 
 .formPoliticText {
-  grid-column: -7/-16;
+  grid-column: -6/-16;
   grid-row: -3/-4;
+  margin-right: 20px;
   align-self: end;
   justify-self: end;
   text-align: end;
